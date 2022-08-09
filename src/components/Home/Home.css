@@ -1,0 +1,18 @@
+
+.wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.nm{
+  width: 500px;
+  padding: 20px;
+}
+
+.heading{
+  color: black;
+  font-family: sans-serif;
+  
+}

@@ -1,0 +1,14 @@
+.wrapperFood{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.outline{
+    padding: 10px;
+     margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+

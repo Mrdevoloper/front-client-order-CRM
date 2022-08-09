@@ -1,0 +1,73 @@
+.korzinka{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+
+
+.numberSoni{
+   border: none;
+   outline: none;
+   border-radius: 5px;
+   border: 2px solid rgb(247, 124, 124);
+   width: 80px;
+   height: 29px;
+   margin-left: 10px;
+   margin-right: 20px;
+   padding-left: 10px;
+}
+
+.href{
+    background-color: rgb(247, 124, 124);
+}
+
+.howmany{
+    padding-left: 10px;
+    font-family: sans-serif;
+    color: black;
+    font-size: 18px;
+}
+
+.wrappernumberOrder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.cardWrapper{
+    background-color: rgb(230, 105, 52);
+}
+
+.wrappe{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btnn{
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+    margin-left: 30px;
+}
+
+.modalInput{
+    width: 350px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border: 1px solid rgb(190, 184, 184);
+    border-radius: 4px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.wrapperInput{
+    padding: 20px;
+}
+
+
+
+
