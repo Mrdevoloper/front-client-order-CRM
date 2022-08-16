@@ -24,7 +24,7 @@ const Home = () => {
 		<>
 			<div className='wrapper'>
 				{loading && <>Loading...</>}
-				{error && <>error...</>}
+				{error && console.log(error)}
 				{data &&
 					data.restaurants.map((e, i) => (
 						<div className='nm' key={i}>
@@ -38,12 +38,12 @@ const Home = () => {
 											alt='green iguana'
 										/>
 										<CardContent>
-											<Typography className='heading'
+											<Typography
+												className='heading'
 												gutterBottom
 												variant='h5'
 												component='div'>
 												{e.name}
-										
 											</Typography>
 										</CardContent>
 									</CardActionArea>
