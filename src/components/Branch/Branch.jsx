@@ -24,7 +24,7 @@ const Branches = () => {
 	});
 
 	const handleClick = (id) => {
-		return (window.location.href = `https://gregarious-seahorse-d9c2b4.netlify.app/${id}`);
+		return (window.location.href = `https://gregarious-seahorse-d9c2b4.netlify.app/foods/${id}`);
 	};
 	return (
 		<div className='branchWrapper'>
