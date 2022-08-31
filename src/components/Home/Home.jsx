@@ -7,6 +7,8 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 import './Home.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap';
 
 const RESTAURANT = gql`
 	query {
@@ -23,7 +25,13 @@ const Home = () => {
 	return (
 		<>
 			<div className='wrapper'>
-				{loading && <>Loading...</>}
+				{loading && (
+					<>
+						<div class='spinner-border text-warning' role='status'>
+							<span class='visually-hidden'>Loading...</span>
+						</div>
+					</>
+				)}
 				{error && console.log(error)}
 				{data &&
 					data.restaurants.map((e, i) => (
