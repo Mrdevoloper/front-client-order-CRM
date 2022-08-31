@@ -27,7 +27,7 @@ const Home = () => {
 			<div className='wrapper'>
 				{loading && (
 					<>
-						<div class='spinner-border text-warning fs-1' role='status'>
+						<div style={{width: "100px", height: "100px", marginTop: "100px"}} class='spinner-border text-warning' role='status'>
 							<span class='visually-hidden'>Loading...</span>
 						</div>
 					</>
