@@ -93,6 +93,18 @@
 @media only screen and (max-width: 375px) {
     .wrapperKorzinka{
         width: 300px;
+
+    }
+
+    .imageKarzinka{
+        width: 300px;
+        height: 300px;
+    }
+
+    .modalka_u{
+        width: 300px;
+        justify-content: center;
+        align-items: center;
     }
 }
 

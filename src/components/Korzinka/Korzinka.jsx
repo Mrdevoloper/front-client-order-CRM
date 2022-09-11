@@ -100,7 +100,7 @@ function Korzinka() {
 		<div className='allwrapper'>
 			<div className='wrappe'>
 				{!corz[0] && (
-					<img
+					<img className='imageKarzinka'
 						src={
 							'https://i.pinimg.com/originals/ee/98/ef/ee98ef00b4034d491f858fe1c23c7431.png'
 						}
@@ -185,7 +185,7 @@ function Korzinka() {
 				</button>
 			)}
 			<div
-				className='modal fade'
+				className='modal fade modalka_u'
 				id='staticBackdrop'
 				data-bs-backdrop='static'
 				data-bs-keyboard='false'
