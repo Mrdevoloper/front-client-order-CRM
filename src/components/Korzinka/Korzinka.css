@@ -75,4 +75,27 @@
 
 
 
+@media only screen and (max-width: 500px) {
+    .wrapperKorzinka{
+        width: 450px;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .wrapperKorzinka{
+        width: 400px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .wrapperKorzinka{
+        width: 350px;
+    }
+}
+@media only screen and (max-width: 330px) {
+    .wrapperKorzinka{
+        width: 300px;
+    }
+}
+
+
+
 
