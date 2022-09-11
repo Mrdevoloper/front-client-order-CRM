@@ -109,7 +109,7 @@ function Korzinka() {
 				)}
 				{corz?.map((corzItem, i) => (
 					<div key={i}>
-						<div className='nm'>
+						<div className='wrapperKorzinka'>
 							<Card sx={{ maxWidth: 600 }}>
 								<CardActionArea>
 									<CardMedia
