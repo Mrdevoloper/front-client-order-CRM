@@ -90,7 +90,7 @@
         width: 350px;
     }
 }
-@media only screen and (max-width: 3750x) {
+@media only screen and (max-width: 3750px) {
     .wrapperKorzinka{
         width: 300px;
     }
