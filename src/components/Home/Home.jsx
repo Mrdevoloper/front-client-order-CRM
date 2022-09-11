@@ -35,7 +35,7 @@ const Home = () => {
 				{error && console.log(error)}
 				{data &&
 					data.restaurants.map((e, i) => (
-						<div className='nm' key={i}>
+						<div className='wrapperhome' key={i}>
 							<Link className='link' to={`branches/${e.id}`}>
 								<Card sx={{ maxWidth: 600 }}>
 									<CardActionArea>

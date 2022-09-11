@@ -1,20 +1,21 @@
 
 .wrapper{
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   padding: 20px;
 }
 
-.nm{
-  width: 500px;
-  padding: 20px;
-  display: flex;
-  flex-wrap: wrap;
-}
+
 
 .heading{
   color: black;
   font-family: sans-serif;
   
+}
+
+.wrapperhome{
+  width: 500px;
+  margin: 20px;
 }

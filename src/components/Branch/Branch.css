@@ -4,3 +4,34 @@
     align-items: center;
     justify-content: center;
 }
+.cards{
+    width: 500px;
+    margin: 20px;
+}
+
+@media only screen and (max-width: 375px) {
+    .cards{
+        width: 330px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .cards{
+        width: 450px;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .cards{
+        width: 400px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .cards{
+        width: 350px;
+    }
+}
+@media only screen and (max-width: 350px) {
+    .cards{
+        width: 300px;
+    }
+}

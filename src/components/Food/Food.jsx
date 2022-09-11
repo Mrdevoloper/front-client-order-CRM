@@ -44,7 +44,7 @@ const Foods = () => {
 			<div className='wrapperFood'>
 				{data &&
 					data.foods.map((e, i) => (
-						<div className='nm' key={i}>
+						<div className='wrapperBranch' key={i}>
 							<Card sx={{ maxWidth: 600 }}>
 								<CardActionArea>
 									<CardMedia

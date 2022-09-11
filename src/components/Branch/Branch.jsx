@@ -31,7 +31,7 @@ const Branches = () => {
 			{data &&
 				data.branches.map((e, i) => (
 					<div onClick={(e) => handleClick(e.target.id)} key={i}>
-						<div className='nm' key={i}>
+						<div className='cards' key={i}>
 							<Card sx={{ maxWidth: 600 }}>
 								<CardActionArea>
 									<CardMedia
