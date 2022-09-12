@@ -92,6 +92,7 @@ function Korzinka() {
 			newOrder({ variables });
 			window.localStorage.removeItem('corzinka');
 			navigate('/');
+			alert("Zakazingiz qabul qilindi")
 		} else {
 			alert('Qiymat kiritilmagan');
 		}
