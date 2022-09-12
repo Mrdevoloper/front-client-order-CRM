@@ -34,7 +34,7 @@ const Foods = () => {
 		if (foundE) {
 			alert(`Karzinkaga ${e.name} qo'shilgan 👉🏻`);
 		} else {
-			alert('Zakazni tasdiqlash uchun bosing!');
+			alert('Zakaz Korzinkaga qoshildi!');
 			corzinkalar.push(e);
 		}
 		window.localStorage.setItem('corzinka', JSON.stringify(corzinkalar));
